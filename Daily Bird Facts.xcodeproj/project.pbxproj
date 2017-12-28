@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7029DF21CEA1673008A0717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7029DF11CEA1673008A0717 /* AppDelegate.swift */; };
+		E7029DF41CEA1673008A0717 /* FactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7029DF31CEA1673008A0717 /* FactViewController.swift */; };
+		E7029DF71CEA1673008A0717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7029DF51CEA1673008A0717 /* Main.storyboard */; };
+		E7029DF91CEA1673008A0717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7029DF81CEA1673008A0717 /* Assets.xcassets */; };
+		E7029DFC1CEA1673008A0717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7029DFA1CEA1673008A0717 /* LaunchScreen.storyboard */; };
+		E7029E071CEA1673008A0717 /* Daily_Bird_FactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7029E061CEA1673008A0717 /* Daily_Bird_FactTests.swift */; };
+		FA2E5BE61D00E39F00E3F2FC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2E5BE51D00E39F00E3F2FC /* FBSDKCoreKit.framework */; };
+		FA2E5BE81D00E3A700E3F2FC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2E5BE71D00E3A700E3F2FC /* FBSDKLoginKit.framework */; };
+		FA2E5BEA1D00E3AC00E3F2FC /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2E5BE91D00E3AC00E3F2FC /* FBSDKShareKit.framework */; };
+		FA8142221CEA6C4A00D63A55 /* BirdFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8142211CEA6C4A00D63A55 /* BirdFact.swift */; };
+		FA8142231CEA6C4A00D63A55 /* BirdFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8142211CEA6C4A00D63A55 /* BirdFact.swift */; };
+		FAA0BEC91CEB7D9D005AB47C /* BirdFactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0BEC81CEB7D9D005AB47C /* BirdFactTableViewCell.swift */; };
+		FAA0BECB1CEB7FFF005AB47C /* BirdFactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0BECA1CEB7FFF005AB47C /* BirdFactTableViewController.swift */; };
+		FAA27ADA1CEE2B4E00D2A832 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA27AD91CEE2B4E00D2A832 /* CloudKit.framework */; };
+		FACEB3DB1D09F3930052CD6C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB3DA1D09F3930052CD6C /* SettingsViewController.swift */; };
+		FACFD7941D37F74100B993F3 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACFD7931D37F74100B993F3 /* LoadingScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7029E031CEA1673008A0717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7029DE61CEA1673008A0717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7029DED1CEA1673008A0717;
+			remoteInfo = "Daily Bird Fact";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7029DEE1CEA1673008A0717 /* DBF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7029DF11CEA1673008A0717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7029DF31CEA1673008A0717 /* FactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactViewController.swift; sourceTree = "<group>"; };
+		E7029DF61CEA1673008A0717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7029DF81CEA1673008A0717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7029DFB1CEA1673008A0717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7029DFD1CEA1673008A0717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7029E021CEA1673008A0717 /* Daily Bird Facts.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily Bird Facts.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7029E061CEA1673008A0717 /* Daily_Bird_FactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_Bird_FactTests.swift; sourceTree = "<group>"; };
+		E7029E081CEA1673008A0717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2E5BE51D00E39F00E3F2FC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		FA2E5BE71D00E3A700E3F2FC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FA2E5BE91D00E3AC00E3F2FC /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		FA8142211CEA6C4A00D63A55 /* BirdFact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdFact.swift; sourceTree = "<group>"; };
+		FAA0BEC81CEB7D9D005AB47C /* BirdFactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdFactTableViewCell.swift; sourceTree = "<group>"; };
+		FAA0BECA1CEB7FFF005AB47C /* BirdFactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdFactTableViewController.swift; sourceTree = "<group>"; };
+		FAA27AD81CEE2B3300D2A832 /* Daily Bird Facts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Daily Bird Facts.entitlements"; sourceTree = "<group>"; };
+		FAA27AD91CEE2B4E00D2A832 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		FACEB3DA1D09F3930052CD6C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FACFD7931D37F74100B993F3 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7029DEB1CEA1673008A0717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2E5BEA1D00E3AC00E3F2FC /* FBSDKShareKit.framework in Frameworks */,
+				FAA27ADA1CEE2B4E00D2A832 /* CloudKit.framework in Frameworks */,
+				FA2E5BE61D00E39F00E3F2FC /* FBSDKCoreKit.framework in Frameworks */,
+				FA2E5BE81D00E3A700E3F2FC /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7029DFF1CEA1673008A0717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7029DE51CEA1673008A0717 = {
+			isa = PBXGroup;
+			children = (
+				FA2E5BDE1D00E2F900E3F2FC /* Frameworks */,
+				FAA27AD81CEE2B3300D2A832 /* Daily Bird Facts.entitlements */,
+				E7029DF01CEA1673008A0717 /* Daily Bird Facts */,
+				E7029E051CEA1673008A0717 /* Daily Bird FactTests */,
+				E7029DEF1CEA1673008A0717 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7029DEF1CEA1673008A0717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7029DEE1CEA1673008A0717 /* DBF.app */,
+				E7029E021CEA1673008A0717 /* Daily Bird Facts.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7029DF01CEA1673008A0717 /* Daily Bird Facts */ = {
+			isa = PBXGroup;
+			children = (
+				E7029DF11CEA1673008A0717 /* AppDelegate.swift */,
+				E7029DF31CEA1673008A0717 /* FactViewController.swift */,
+				E7029DF51CEA1673008A0717 /* Main.storyboard */,
+				FACFD7931D37F74100B993F3 /* LoadingScreenViewController.swift */,
+				FAA0BECA1CEB7FFF005AB47C /* BirdFactTableViewController.swift */,
+				FA8142211CEA6C4A00D63A55 /* BirdFact.swift */,
+				FAA0BEC81CEB7D9D005AB47C /* BirdFactTableViewCell.swift */,
+				FACEB3DA1D09F3930052CD6C /* SettingsViewController.swift */,
+				E7029DF81CEA1673008A0717 /* Assets.xcassets */,
+				E7029DFA1CEA1673008A0717 /* LaunchScreen.storyboard */,
+				E7029DFD1CEA1673008A0717 /* Info.plist */,
+			);
+			name = "Daily Bird Facts";
+			path = "Daily Bird Fact";
+			sourceTree = "<group>";
+		};
+		E7029E051CEA1673008A0717 /* Daily Bird FactTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7029E061CEA1673008A0717 /* Daily_Bird_FactTests.swift */,
+				E7029E081CEA1673008A0717 /* Info.plist */,
+			);
+			path = "Daily Bird FactTests";
+			sourceTree = "<group>";
+		};
+		FA2E5BDE1D00E2F900E3F2FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA2E5BE91D00E3AC00E3F2FC /* FBSDKShareKit.framework */,
+				FA2E5BE71D00E3A700E3F2FC /* FBSDKLoginKit.framework */,
+				FA2E5BE51D00E39F00E3F2FC /* FBSDKCoreKit.framework */,
+				FAA27AD91CEE2B4E00D2A832 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7029DED1CEA1673008A0717 /* Daily Bird Facts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7029E0B1CEA1673008A0717 /* Build configuration list for PBXNativeTarget "Daily Bird Facts" */;
+			buildPhases = (
+				E7029DEA1CEA1673008A0717 /* Sources */,
+				E7029DEB1CEA1673008A0717 /* Frameworks */,
+				E7029DEC1CEA1673008A0717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Bird Facts";
+			productName = "Daily Bird Fact";
+			productReference = E7029DEE1CEA1673008A0717 /* DBF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7029E011CEA1673008A0717 /* Daily Bird FactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7029E0E1CEA1673008A0717 /* Build configuration list for PBXNativeTarget "Daily Bird FactsTests" */;
+			buildPhases = (
+				E7029DFE1CEA1673008A0717 /* Sources */,
+				E7029DFF1CEA1673008A0717 /* Frameworks */,
+				E7029E001CEA1673008A0717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7029E041CEA1673008A0717 /* PBXTargetDependency */,
+			);
+			name = "Daily Bird FactsTests";
+			productName = "Daily Bird FactTests";
+			productReference = E7029E021CEA1673008A0717 /* Daily Bird Facts.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7029DE61CEA1673008A0717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Philpott Studios";
+				TargetAttributes = {
+					E7029DED1CEA1673008A0717 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 88N788J6U6;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					E7029E011CEA1673008A0717 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = E7029DED1CEA1673008A0717;
+					};
+				};
+			};
+			buildConfigurationList = E7029DE91CEA1673008A0717 /* Build configuration list for PBXProject "Daily Bird Facts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7029DE51CEA1673008A0717;
+			productRefGroup = E7029DEF1CEA1673008A0717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7029DED1CEA1673008A0717 /* Daily Bird Facts */,
+				E7029E011CEA1673008A0717 /* Daily Bird FactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7029DEC1CEA1673008A0717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7029DFC1CEA1673008A0717 /* LaunchScreen.storyboard in Resources */,
+				E7029DF91CEA1673008A0717 /* Assets.xcassets in Resources */,
+				E7029DF71CEA1673008A0717 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7029E001CEA1673008A0717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7029DEA1CEA1673008A0717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA0BECB1CEB7FFF005AB47C /* BirdFactTableViewController.swift in Sources */,
+				FACFD7941D37F74100B993F3 /* LoadingScreenViewController.swift in Sources */,
+				FAA0BEC91CEB7D9D005AB47C /* BirdFactTableViewCell.swift in Sources */,
+				E7029DF41CEA1673008A0717 /* FactViewController.swift in Sources */,
+				FA8142221CEA6C4A00D63A55 /* BirdFact.swift in Sources */,
+				E7029DF21CEA1673008A0717 /* AppDelegate.swift in Sources */,
+				FACEB3DB1D09F3930052CD6C /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7029DFE1CEA1673008A0717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8142231CEA6C4A00D63A55 /* BirdFact.swift in Sources */,
+				E7029E071CEA1673008A0717 /* Daily_Bird_FactTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7029E041CEA1673008A0717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7029DED1CEA1673008A0717 /* Daily Bird Facts */;
+			targetProxy = E7029E031CEA1673008A0717 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7029DF51CEA1673008A0717 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7029DF61CEA1673008A0717 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7029DFA1CEA1673008A0717 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7029DFB1CEA1673008A0717 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7029E091CEA1673008A0717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Philpott (7MQY7CRE7E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Philpott (7MQY7CRE7E)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = DBF;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7029E0A1CEA1673008A0717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alex Philpott (88N788J6U6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alex Philpott (88N788J6U6)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DBF;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7029E0C1CEA1673008A0717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Daily Bird Facts.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = NO;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "~/Documents/Philpott-Casciano/FacebookSDK";
+				INFOPLIST_FILE = "Daily Bird Fact/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philpott-casciano.dailybirdfacts";
+				PRODUCT_NAME = DBF;
+				PROVISIONING_PROFILE = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7029E0D1CEA1673008A0717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Daily Bird Facts.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "~/Documents/Philpott-Casciano/FacebookSDK";
+				INFOPLIST_FILE = "Daily Bird Fact/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philpott-casciano.dailybirdfacts";
+				PRODUCT_MODULE_NAME = DBF;
+				PRODUCT_NAME = DBF;
+				PROVISIONING_PROFILE = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7029E0F1CEA1673008A0717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Daily Bird FactTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "P-C.Daily-Bird-FactTests";
+				PRODUCT_NAME = "Daily Bird Facts";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBF.app/DBF";
+			};
+			name = Debug;
+		};
+		E7029E101CEA1673008A0717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Daily Bird FactTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "P-C.Daily-Bird-FactTests";
+				PRODUCT_NAME = "Daily Bird Facts";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBF.app/DBF";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7029DE91CEA1673008A0717 /* Build configuration list for PBXProject "Daily Bird Facts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7029E091CEA1673008A0717 /* Debug */,
+				E7029E0A1CEA1673008A0717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7029E0B1CEA1673008A0717 /* Build configuration list for PBXNativeTarget "Daily Bird Facts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7029E0C1CEA1673008A0717 /* Debug */,
+				E7029E0D1CEA1673008A0717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7029E0E1CEA1673008A0717 /* Build configuration list for PBXNativeTarget "Daily Bird FactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7029E0F1CEA1673008A0717 /* Debug */,
+				E7029E101CEA1673008A0717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7029DE61CEA1673008A0717 /* Project object */;
+}
